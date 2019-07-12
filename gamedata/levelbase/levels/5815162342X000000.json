@@ -1,0 +1,36 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 235,
+        "cameraPosition": {
+            "x": 49.920448303222659,
+            "y": 117.02229309082031
+        }
+    },
+    "planet": {
+        "planetId": "tatooine",
+        "levelName": "TAT'NQ",
+        "levelDescription": "Star giants homeland",
+        "position": {
+            "x": 143.32769775390626,
+            "y": 139.4817352294922
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "20,24,56,60,",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "doubleExplosion"
+    },
+    "hintDialog": {
+        "message": "Explosion unit can be used to steer other units"
+    },
+    "artefacts": []
+}

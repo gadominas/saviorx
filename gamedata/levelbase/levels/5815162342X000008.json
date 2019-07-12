@@ -1,0 +1,57 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 240,
+        "cameraPosition": {
+            "x": -76.4,
+            "y": 130.3
+        }
+    },
+    "planet": {
+        "planetId": "cih",
+        "levelName": "CIH'MO",
+        "levelDescription": "The Long Dark Tea-Time",
+        "position": {
+            "x": -105.4,
+            "y": 190
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "26,47,63",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "artefacts": [
+        {
+            "type": "roadster",
+            "position": {
+                "x": -427.99609375,
+                "y": 45.260169982910159
+            }
+        }
+    ]
+}

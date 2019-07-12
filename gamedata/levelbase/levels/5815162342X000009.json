@@ -1,0 +1,104 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 201,
+        "cameraPosition": {
+            "x": -86,
+            "y": 113
+        }
+    },
+    "planet": {
+        "planetId": "bradox",
+        "levelName": "BRA'ZI",
+        "levelDescription": "Test field for gravitational singularity",
+        "position": {
+            "x": -115.4292984008789,
+            "y": 163.32196044921876
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "30,31,32,39,40,41,48,49,50,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 4,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 8,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 44,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 80,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 76,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 72,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 36,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 0,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "artefacts": [{
+        "type": "roadster",
+        "position": {
+            "x": -4,
+            "y": 21
+        }
+    }]
+}

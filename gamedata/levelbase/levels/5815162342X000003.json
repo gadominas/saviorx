@@ -1,0 +1,43 @@
+{
+    "previewSettings": {
+        "orthographicSize": 167,
+        "cameraPosition": {
+            "x": 94.57826232910156,
+            "y": -55.0078125
+        }
+    },
+    "planet": {
+        "planetId": "olim",
+        "levelName": "OLIM'O",
+        "levelDescription": "PLANET OF SOIL AND DIRT",
+        "position": {
+            "x": 214.27291870117188,
+            "y": -69.61998748779297
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "4,19,44,55,76,",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "double45"
+    },
+    "hintDialog": {
+        "message": "Click and hold delete button to clear the board"
+    },
+    "artefacts": []
+}

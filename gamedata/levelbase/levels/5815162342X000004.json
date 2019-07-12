@@ -1,0 +1,49 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 243,
+        "cameraPosition": {
+            "x": -88,
+            "y": 126
+        }
+    },
+    "planet": {
+        "planetId": "bar",
+        "levelName": "BAR'OS",
+        "levelDescription": "NO FLYING LETERS PLACE",
+        "position": {
+            "x": -161.75946044921876,
+            "y": 180.424072265625
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "26,36,73,74,",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "artefacts": [
+        {
+            "type": "asteroid",
+            "position": {
+                "x": -3.561754,
+                "y": 245.3633
+            }
+        }
+    ]
+}

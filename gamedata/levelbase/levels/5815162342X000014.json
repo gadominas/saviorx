@@ -1,0 +1,141 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 175,
+        "cameraPosition": {
+            "x": -99,
+            "y": -94
+        }
+    },
+    "planet": {
+        "planetId": "felic",
+        "levelName": "FELIC'O",
+        "levelDescription": "Planet teeming with two baobabs but little animal life",
+        "position": {
+            "x": -143,
+            "y": -154
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "8,11,12,25,26,34,35,43,44,52,53,61,62,74,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 7,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 6,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 6
+            },
+            {
+                "gridBoxId": 75,
+                "unitType": 8,
+                "delayTime": 4,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 76,
+                "unitType": 6,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 80,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 79,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 78,
+                "unitType": 6,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 77,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 2,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 3,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 0,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 9,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitExploder",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitBooster",
+                "enabled": false
+            },
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": false
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": false
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "Explosion in 4 seconds. Top-Right freezer unit will be deactivated in 6 seconds."
+    },
+    "artefacts": [
+        {
+            "type": "roadster",
+            "position": {
+                "x": -34,
+                "y": 86
+            }
+        }
+    ]
+}

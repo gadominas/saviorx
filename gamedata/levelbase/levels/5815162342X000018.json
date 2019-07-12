@@ -1,0 +1,49 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 147,
+        "cameraPosition": {
+            "x": 99.88277435302735,
+            "y": -1.8399007320404053
+        }
+    },
+    "planet": {
+        "planetId": "cancri",
+        "levelName": "CANC'US",
+        "levelDescription": "Oceanic planet with forests and mountains",
+        "position": {
+            "x": 199.7894287109375,
+            "y": -9.064642906188965
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "13,37,40,43,67,",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnShield",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitBooster",
+                "enabled": false
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "",
+        "fontSize": 0
+    },
+    "artefacts": [
+        {
+            "type": "spaceman",
+            "position": {
+                "x": 31.412933349609375,
+                "y": -64.12793731689453
+            }
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 201,
+        "cameraPosition": {
+            "x": -10,
+            "y": 126.7713851928711
+        }
+    },
+    "planet": {
+        "planetId": "ho",
+        "levelName": "HO'TRU",
+        "levelDescription": "Sector 137: Intergalatic comunication hub",
+        "position": {
+            "x": -27.87020874023438,
+            "y": 158.4102325439453
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "9,17,23,25,27,35,45,49,53,57,59,63,67,71,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 58,
+                "unitType": 5,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 54,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 36,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 18,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 0,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 72,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 80,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 62,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 44,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 26,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 8,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 24,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 22,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 74,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 78,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitExploder",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": false
+            },
+            {
+                "name": "btnShield",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "",
+        "fontSize": 0
+    },
+    "artefacts": [
+        {
+            "type": "asteroid",
+            "position": {
+                "x": 245.73104858398438,
+                "y": 99.67386627197266
+            }
+        },
+        {
+            "type": "asteroid",
+            "position": {
+                "x": 295.73104858398438,
+                "y": 129.67386627197266
+            }
+        }
+    ]
+}

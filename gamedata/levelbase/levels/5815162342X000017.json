@@ -1,0 +1,110 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 184,
+        "cameraPosition": {
+            "x": 55.4892578125,
+            "y": -107.80484008789063
+        }
+    },
+    "planet": {
+        "planetId": "hagfix",
+        "levelName": "Hag'IC",
+        "levelDescription": "Calm seas and rolling hills",
+        "position": {
+            "x": 104.95364379882813,
+            "y": -170.2431182861328
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "72,76,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 12,
+                "unitType": 5,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 53,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 73,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 74,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 75,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 77,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 78,
+                "unitType": 8,
+                "delayTime": 8,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 79,
+                "unitType": 2,
+                "delayTime": 8,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitBooster",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "",
+        "fontSize": 0
+    },
+    "artefacts": []
+}

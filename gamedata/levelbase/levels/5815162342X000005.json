@@ -1,0 +1,55 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 213,
+        "cameraPosition": {
+            "x": -11.48709487915039,
+            "y": -121.38313293457031
+        }
+    },
+    "planet": {
+        "planetId": "hagfix",
+        "levelName": "Hag'fix",
+        "levelDescription": "Lost oceans and forests",
+        "position": {
+            "x": -34.58359146118164,
+            "y": -196.9821319580078
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "31,40,49,",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "explosionDown"
+    },
+    "artefacts": [
+        {
+            "type": "asteroid",
+            "position": {
+                "x": 77.19387817382813,
+                "y": -79.43512725830078
+            }
+        },
+        {
+            "type": "asteroid",
+            "position": {
+                "x": 132.70774841308595,
+                "y": -5.653533935546875
+            }
+        },
+        {
+            "type": "asteroid",
+            "position": {
+                "x": -229.04547119140626,
+                "y": -204.9264373779297
+            }
+        }
+    ]
+}

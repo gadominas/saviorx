@@ -1,0 +1,64 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 184,
+        "cameraPosition": {
+            "x": -81.71670532226563,
+            "y": 110.8949203491211
+        }
+    },
+    "planet": {
+        "planetId": "acrux",
+        "levelName": "ACR'UX",
+        "levelDescription": "Flying Souls Land",
+        "position": {
+            "x": -142.51351928710938,
+            "y": 140.3135223388672
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "8,31,56,72,",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "explosionDown"
+    },
+    "artefacts": [
+        {
+            "type": "asteroid",
+            "position": {
+                "x": 10.16034984588623,
+                "y": 110.29781341552735
+            }
+        },
+        {
+            "type": "roadster",
+            "position": {
+                "x": 111.79834747314453,
+                "y": 8.2850980758667
+            }
+        }
+    ]
+}

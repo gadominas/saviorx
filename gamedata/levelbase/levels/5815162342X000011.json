@@ -1,0 +1,109 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 199,
+        "cameraPosition": {
+            "x": 11.557673454284668,
+            "y": 126.46620178222656
+        }
+    },
+    "planet": {
+        "planetId": "sirius",
+        "levelName": "MO'POS",
+        "levelDescription": "A place of no diffeomorphism covariance",
+        "position": {
+            "x": 26.763957977294923,
+            "y": 198.19606018066407
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "0,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 2,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 3,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 4,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 5,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 6,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 7,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 8,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 1,
+                "unitType": 8,
+                "delayTime": 5,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": false
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitBooster",
+                "enabled": false
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": false
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "<b>Explosion</b> unit will be <b>detonated</b> in <b><color=red>5</color></b> seconds!"
+    },
+    "artefacts": []
+}

@@ -1,0 +1,191 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 215,
+        "cameraPosition": {
+            "x": -70,
+            "y": 96
+        }
+    },
+    "planet": {
+        "planetId": "olim",
+        "levelName": "OLIM'PO",
+        "levelDescription": "Jungle planet teeming with plants but little animal life",
+        "position": {
+            "x": -154,
+            "y": 138
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "43,50,51,52,59,60,61,67,68,69,70,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 30,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 12,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 28,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 47,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 46,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 45,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 54,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 63,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 72,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 73,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 74,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 75,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 76,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 23,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 14,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 5,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 6,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 7,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 8,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 17,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 26,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 35,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 44,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "The bigger the mass the higher chance to oveshoot gravitational field of the planet"
+    },
+    "artefacts": []
+}

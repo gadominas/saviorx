@@ -1,0 +1,116 @@
+{
+    "stars": [
+        {
+            "starId": "00000000-0000-0000-0000-000000000001",
+            "starPrefabName": "sirius"
+        },
+        {
+            "starId": "10000000-0000-0000-0000-000000000002",
+            "starPrefabName": "bradox"
+        },
+        {
+            "starId": "5815162342X000000",
+            "starPrefabName": "tatooine"
+        },
+        {
+            "starId": "5815162342X000001",
+            "starPrefabName": "segin"
+        },
+        {
+            "starId": "5815162342X000002",
+            "starPrefabName": "cancri"
+        },
+        {
+            "starId": "5815162342X000003",
+            "starPrefabName": "olim"
+        },
+        {
+            "starId": "5815162342X000004",
+            "starPrefabName": "bar"
+        },
+        {
+            "starId": "10000000-0000-0000-0000-000000000003",
+            "starPrefabName": "jagolamax"
+        },
+        {
+            "starId": "10000000-0000-0000-0000-000000000004",
+            "starPrefabName": "caph"
+        },
+        {
+            "starId": "5815162342X000005",
+            "starPrefabName": "hagfix"
+        },
+        {
+            "starId": "5815162342X000006",
+            "starPrefabName": "acrux"
+        },
+        {
+            "starId": "5815162342X000007",
+            "starPrefabName": "nexi"
+        },
+        {
+            "starId": "5815162342X000008",
+            "starPrefabName": "cih"
+        },
+        {
+            "starId": "5815162342X000009",
+            "starPrefabName": "bradox"
+        },
+        {
+            "starId": "5815162342X000010",
+            "starPrefabName": "tatooine"
+        },
+        {
+            "starId": "5815162342X000011",
+            "starPrefabName": "sirius"
+        },
+        {
+            "starId": "5815162342X000012",
+            "starPrefabName": "ho"
+        },
+        {
+            "starId": "5815162342X000013",
+            "starPrefabName": "olim"
+        },
+        {
+            "starId": "5815162342X000014",
+            "starPrefabName": "felic"
+        },
+        {
+            "starId": "5815162342X000015",
+            "starPrefabName": "segin"
+        },
+        {
+            "starId": "5815162342X000016",
+            "starPrefabName": "jagolamax"
+        },
+        {
+            "starId": "5815162342X000017",
+            "starPrefabName": "hagfix"
+        },
+        {
+            "starId": "5815162342X000018",
+            "starPrefabName": "cancri"
+        },
+        {
+            "starId": "5815162342X000019",
+            "starPrefabName": "bar"
+        },
+        {
+            "starId": "5815162342X000020",
+            "starPrefabName": "caph"
+        },
+        {
+            "starId": "5815162342X000021",
+            "starPrefabName": "acrux"
+        },
+        {
+            "starId": "5815162342X000022",
+            "starPrefabName": "nexi"
+        },
+        {
+            "starId": "5815162342X000023",
+            "starPrefabName": "ho"
+        }
+    ]
+}

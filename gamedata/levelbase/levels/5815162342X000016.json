@@ -1,0 +1,71 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 189,
+        "cameraPosition": {
+            "x": -99.74003601074219,
+            "y": -111.31082153320313
+        }
+    },
+    "planet": {
+        "planetId": "jagolamax",
+        "levelName": "JAG'XO",
+        "levelDescription": "Rural planet and the former site of a Rebel base",
+        "position": {
+            "x": -161.00982666015626,
+            "y": -147.10581970214845
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "0,9,79,80,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 73,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 63,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 72,
+                "unitType": 5,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitBooster",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "<b>Leaf</b> unit is <b><color=red>reserved</color></b> for this level. You can't remove or re-deploy."
+    },
+    "artefacts": []
+}

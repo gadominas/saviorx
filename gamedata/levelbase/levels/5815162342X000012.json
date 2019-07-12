@@ -1,0 +1,137 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 192,
+        "cameraPosition": {
+            "x": -101,
+            "y": 119
+        }
+    },
+    "planet": {
+        "planetId": "ho",
+        "levelName": "Ho'ts",
+        "levelDescription": "Icy planet beset by constant severe blizzards",
+        "position": {
+            "x": -160,
+            "y": 170
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "26,31,39,40,41,49,62,74,78,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 14,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 7
+            },
+            {
+                "gridBoxId": 13,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 12,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 7
+            },
+            {
+                "gridBoxId": 11,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 19,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 28,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 7
+            },
+            {
+                "gridBoxId": 37,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 46,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 7
+            },
+            {
+                "gridBoxId": 66,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 7
+            },
+            {
+                "gridBoxId": 67,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 68,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 7
+            },
+            {
+                "gridBoxId": 52,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 7
+            },
+            {
+                "gridBoxId": 43,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 34,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 7
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "All <b>freezer</b> units will be deactivated in <b><color=red>7</color></b> seconds"
+    },
+    "artefacts": []
+}

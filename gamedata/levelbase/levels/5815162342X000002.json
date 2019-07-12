@@ -1,0 +1,52 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 229,
+        "cameraPosition": {
+            "x": -127.51731872558594,
+            "y": 140.83746337890626
+        }
+    },
+    "planet": {
+        "planetId": "cancri",
+        "levelName": "CANC'RI",
+        "levelDescription": "Place of mass attack in Z8 sector",
+        "position": {
+            "x": -181.55540466308595,
+            "y": 175.3464813232422
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "37,38,39,40,41,42,43,",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "explosionShift"
+    },
+    "hintDialog": {
+        "message": "You <b>can</b> deploy <b>as many</b> units as you <b>LIKE!</b>"
+    },
+    "artefacts": []
+}

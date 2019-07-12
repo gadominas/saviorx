@@ -1,0 +1,92 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 177,
+        "cameraPosition": {
+            "x": -102.65313720703125,
+            "y": 142.59060668945313
+        }
+    },
+    "planet": {
+        "planetId": "segin",
+        "levelName": "Segi'po",
+        "levelDescription": "Small mineral planet located in a remote section of the galaxy",
+        "position": {
+            "x": -141.55569458007813,
+            "y": 157.2113037109375
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "58,67,76,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 25,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 69,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 78,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 71,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 80,
+                "unitType": 6,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitFreezer",
+                "enabled": false
+            },
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": false
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": false
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitBooster",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": false
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "New units uncovered: <b><color=red>Booster</color></b>. Rockets can be boosted placing Booster units close to them."
+    },
+    "artefacts": [
+    ]
+}

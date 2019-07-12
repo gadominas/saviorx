@@ -1,0 +1,148 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 191,
+        "cameraPosition": {
+            "x": -114.10334014892578,
+            "y": 121.87774658203125
+        }
+    },
+    "planet": {
+        "planetId": "nexi",
+        "levelName": "NEX'I",
+        "levelDescription": "Lost City of Shadows",
+        "position": {
+            "x": -137.3511199951172,
+            "y": 190.8705291748047
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "15,16,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 64,
+                "unitType": 7,
+                "delayTime": 3,
+                "burstTime": 10
+            },
+            {
+                "gridBoxId": 65,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 66,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 67,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 68,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 69,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 70,
+                "unitType": 8,
+                "delayTime": 10,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 61,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 52,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 43,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 34,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 25,
+                "unitType": 8,
+                "delayTime": 4,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitBooster",
+                "enabled": false
+            }
+        ],
+        "guidelineScenarioName": "explosionShift"
+    },
+    "hintDialog": {
+        "message": "<b>STOP</b> unit acts as a attachment point in space. <b>Freezer!</b>"
+    },
+    "artefacts": [
+        {
+            "type": "asteroid",
+            "position": {
+                "x": -66.7,
+                "y": 82.1
+            }
+        },
+        {
+            "type": "roadster",
+            "position": {
+                "x": -124.2,
+                "y": 80.6
+            }
+        }
+    ]
+}

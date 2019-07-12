@@ -1,0 +1,150 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 178,
+        "cameraPosition": {
+            "x": -155,
+            "y": -18
+        }
+    },
+    "planet": {
+        "planetId": "tatooine",
+        "levelName": "TAT'PO",
+        "levelDescription": "Anti geodesics place in time",
+        "position": {
+            "x": -199.98391723632813,
+            "y": 2.102266311645508
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "22,30,31,32,38,39,40,41,42,48,49,50,58,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 12,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 13,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 14,
+                "unitType": 2,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 15,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 19,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 28,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 37,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 46,
+                "unitType": 1,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 65,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 66,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 67,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 68,
+                "unitType": 4,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 34,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 43,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 52,
+                "unitType": 3,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 61,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": false
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "artefacts": []
+}

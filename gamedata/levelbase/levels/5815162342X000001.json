@@ -1,0 +1,36 @@
+{
+    "previewSettings": {
+        "orthographicSize": 210,
+        "cameraPosition": {
+            "x": 116,
+            "y": -130
+        }
+    },
+    "planet": {
+        "planetId": "segin",
+        "levelName": "Segi'n",
+        "levelDescription": "Place of lost eyes and visions",
+        "position": {
+            "x": 186.92662048339845,
+            "y": -153.13999938964845
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "31,39,40,",
+        "reservedUnits": [],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "sideWays"
+    },
+    "artefacts": []
+}

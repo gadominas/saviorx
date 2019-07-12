@@ -1,0 +1,80 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 178,
+        "cameraPosition": {
+            "x": -87.53085327148438,
+            "y": 107.53096008300781
+        }
+    },
+    "planet": {
+        "planetId": "bar",
+        "levelName": "BAR'CO",
+        "levelDescription": "A remote frontier outpost and old trading port",
+        "position": {
+            "x": -151.81509399414063,
+            "y": 130.19277954101563
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "13,37,43,67,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 36,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 4,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 76,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 40,
+                "unitType": 5,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 44,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnGyro",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitExploder",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": false
+            },
+            {
+                "name": "btnShield",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "",
+        "fontSize": 0
+    },
+    "artefacts": []
+}

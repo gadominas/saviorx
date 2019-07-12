@@ -1,0 +1,152 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 178,
+        "cameraPosition": {
+            "x": 78.20063781738281,
+            "y": 101.72027587890625
+        }
+    },
+    "planet": {
+        "planetId": "acrux",
+        "levelName": "ACR'OP",
+        "levelDescription": "Uncolonized planet with over 1 million species",
+        "position": {
+            "x": 145.55377197265626,
+            "y": 137.15713500976563
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "13,37,43,67,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 40,
+                "unitType": 5,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 44,
+                "unitType": 9,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 53,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 35,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 5,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 4,
+                "unitType": 9,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 3,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 27,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 36,
+                "unitType": 9,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 45,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 75,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 76,
+                "unitType": 9,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 77,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnShield",
+                "enabled": false
+            },
+            {
+                "name": "btnMagnet",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": true
+            },
+            {
+                "name": "btnUnitBooster",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "",
+        "fontSize": 0
+    },
+    "artefacts": [
+        {
+            "type": "roadster",
+            "position": {
+                "x": 328.27557373046877,
+                "y": 106.19721221923828
+            }
+        }
+    ]
+}

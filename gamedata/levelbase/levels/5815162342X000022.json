@@ -1,0 +1,136 @@
+{
+    "levelUID": "",
+    "previewSettings": {
+        "orthographicSize": 229,
+        "cameraPosition": {
+            "x": -13.573797225952149,
+            "y": 134.54483032226563
+        }
+    },
+    "planet": {
+        "planetId": "nexi",
+        "levelName": "NEX'WI",
+        "levelDescription": "Primary terrain ruins and waterfalls",
+        "position": {
+            "x": 10.075082778930664,
+            "y": 199.74102783203126
+        }
+    },
+    "console": {
+        "gridBoxesToEnable": "9,17,27,35,45,53,63,71,",
+        "reservedUnits": [
+            {
+                "gridBoxId": 58,
+                "unitType": 5,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 54,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 36,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 18,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 0,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 72,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 80,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 62,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 44,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 26,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            },
+            {
+                "gridBoxId": 8,
+                "unitType": 7,
+                "delayTime": 0,
+                "burstTime": 0
+            }
+        ],
+        "burstConfigEnabled": false,
+        "delayConfigEnabled": false,
+        "controls": [
+            {
+                "name": "btnUnitExploder",
+                "enabled": false
+            },
+            {
+                "name": "btnUnitFreezer",
+                "enabled": false
+            },
+            {
+                "name": "btnShield",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionUp",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionDown",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionRight",
+                "enabled": true
+            },
+            {
+                "name": "btnDirectionLeft",
+                "enabled": true
+            }
+        ],
+        "guidelineScenarioName": "DEFAULT"
+    },
+    "hintDialog": {
+        "message": "",
+        "fontSize": 0
+    },
+    "artefacts": [
+        {
+            "type": "spaceman",
+            "position": {
+                "x": 245.73104858398438,
+                "y": 99.67386627197266
+            }
+        }
+    ]
+}
