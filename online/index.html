@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>SaviorX - Story of Life</title>
+		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
+		<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+		<script type="text/javascript">
+		<!--
+		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+		if (document.location.protocol == 'https:')
+			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+		-->
+		</script>
+		<script type="text/javascript">
+		<!--
+			var config = {
+				width: 1334, 
+				height: 750,
+				params: { enableDebugging:"0" }
+				
+			};
+			var u = new UnityObject2(config);
+			
+			jQuery(function() {
+
+				var $missingScreen = jQuery("#unityPlayer").find(".missing");
+				var $brokenScreen = jQuery("#unityPlayer").find(".broken");
+				$missingScreen.hide();
+				$brokenScreen.hide();
+
+				u.observeProgress(function (progress) {
+					switch(progress.pluginStatus) {
+						case "broken":
+							$brokenScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$brokenScreen.show();
+						break;
+						case "missing":
+							$missingScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$missingScreen.show();
+						break;
+						case "installed":
+							$missingScreen.remove();
+						break;
+						case "first":
+						break;
+					}
+				});
+				u.initPlugin(jQuery("#unityPlayer")[0], "saviorx.unity3d");
+			});
+		-->
+		</script>
+		<style type="text/css">
+
+		<!--
+		body {
+			font-family: Helvetica, Verdana, Arial, sans-serif;
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+		a:link, a:visited {
+			color: #bfbfbf;
+		}
+		a:active, a:hover {
+			color: #bfbfbf;
+		}
+		p.header {
+			font-size: small;
+		}
+		p.header span {
+			font-weight: bold;
+		}
+		p.footer {
+			font-size: x-small;
+		}
+		div.content {
+			margin: auto;
+			width: 1334px;
+		}
+		div.broken,
+		div.missing {
+			margin: auto;
+			position: relative;
+			top: 50%;
+			width: 193px;
+		}
+		div.broken a,
+		div.missing a {
+			height: 63px;
+			position: relative;
+			top: -31px;
+		}
+		div.broken img,
+		div.missing img {
+			border-width: 0px;
+		}
+		div.broken {
+			display: none;
+		}
+		div#unityPlayer {
+			cursor: default;
+			height: 750px;
+			width: 1334px;
+		}
+		-->
+		</style>
+	</head>
+	<body>
+		<p class="header"><span>Unity Web Player | </span>SaviorX</p>
+		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+		<div class="content">
+			<img src="gameacon2015_bestart.png"/>
+			<img src="devgamm2015_lynch.png"/>
+
+			<div id="unityPlayer">
+				<div class="missing">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<p>You suppose to be enjoying this in mobile. Playing on web, you can't zoomin/out, you can't use accelerometer to steer your units by attaching magnets to any of elements in a sandbox level.. and it feels not right on web... :) Please give me a call +37061822191 (USA cell: +18659739783) or shoot me an email to <a href="gadominas@gmail.com">gadominas@gmail.com</a> or ping me on skype: 
+<div id="SkypeButton_Call_gadominaz_1">
+ <script type="text/javascript">
+ Skype.ui({
+ "name": "dropdown",
+ "element": "SkypeButton_Call_gadominaz_1",
+ "participants": ["gadominaz"],
+ "imageColor": "white"
+ });
+ </script>
+</div>if you can and I will try to help with the install on mobile. Or ship you a separate device your location :)</p>
+		
+		<h2>Install guide on Android</h2>
+		<p>APK can be downloaded from: <a href="http://saviorx.com/shared/saviorx.apk">SaviorX.com site</a>
+		
+		  <li>1. Open <a href="http://saviorx.com/shared/saviorx.apk">URL</a>. Most likely you will get a warning that this file may harm your device. Click "OK".</li>
+		  <li>2. File will start to download. When download complete, click on notification about complete download.</li>
+		  <li>3. A dialog will appear asking whether to install application. Click "INSTALL". 
+		  	(if this dialog fails to appear, find out "saviorx.apk" file in downloads folder and double click to execute it)</li>
+		  <li>4. Confirmation screen will appear listing application rights. Click "INSTALL"</li>
+		  <li>5. Another dialog may appear asking for install location. Select "Internal device storage", click "OK"</li>
+		  <li>6. When instalation finished, find out application in drawer and run.</li>
+		
+	</body>
+</html>
