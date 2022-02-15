@@ -1,0 +1,8 @@
+{
+  "files": {
+    "payload": {
+      "filename": "payload",
+      "content": "{\"levelUID\":\"\",\"previewSettings\":{\"orthographicSize\":177,\"cameraPosition\":{\"x\":97.77839660644531,\"y\":96.32887268066406}},\"planet\":{\"planetId\":\"cancri\",\"levelName\":\"CANCRI\",\"levelDescription\":\"Blue waters land\",\"position\":{\"x\":161.6130828857422,\"y\":151.6509246826172}},\"console\":{\"gridBoxesToEnable\":\"13,16,40,43,\",\"reservedUnits\":[],\"burstConfigEnabled\":false,\"delayConfigEnabled\":false,\"controls\":[{\"name\":\"btnUnitFreezer\",\"enabled\":false},{\"name\":\"btnUnitExploder\",\"enabled\":true}],\"guidelineScenarioName\":\"DEFAULT\"},\"artefacts\":[{\"type\":\"asteroid\",\"position\":{\"x\":10.16034984588623,\"y\":110.29781341552735}},{\"type\":\"asteroid\",\"position\":{\"x\":111.79834747314453,\"y\":8.2850980758667}}]}"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "files": {
+    "payload": {
+      "filename": "payload",
+      "content": "{\"previewSettings\":{\"orthographicSize\":210,\"cameraPosition\":{\"x\":-55,\"y\":120}},\"planet\":{\"planetId\":\"bar\",\"levelName\":\"ATLAI'R\",\"levelDescription\":\"NO FLYING LETERS PLACE\",\"position\":{\"x\":-32,\"y\":195}},\"console\":{\"gridBoxesToEnable\":\"9,21,17,45,77,62,\",\"reservedUnits\":[],\"burstConfigEnabled\":false,\"delayConfigEnabled\":false,\"controls\":[{\"name\":\"btnDirectionUp\",\"enabled\":true},{\"name\":\"btnDirectionDown\",\"enabled\":true},{\"name\":\"btnDirectionRight\",\"enabled\":true},{\"name\":\"btnDirectionLeft\",\"enabled\":true},{\"name\":\"btnUnitBooster\",\"enabled\":false}],\"guidelineScenarioName\":\"DEFAULT\"},\"artefacts\":[]}"
+    }
+  }
+}
