@@ -6,8 +6,114 @@
     <title>Unity WebGL Player | SaviorX</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="saviorx">
+        <title>SAVIORX - Expand your boundaries</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="../fav/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../fav/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../fav/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../fav/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../fav/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../fav/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../fav/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../fav/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../fav/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../fav/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../fav/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+        <link rel="manifest" href="../fav/manifest.json">
+        <link rel="shortcut icon" href="../fav/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../fav/favicon.ico" type="image/x-icon">
+        <!-- START: Styles -->
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700%7cMarcellus+SC" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="../assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+        <!-- FontAwesome -->
+        <script defer src="../assets/vendor/fontawesome-free/js/all.js"></script>
+        <script defer src="../assets/vendor/fontawesome-free/js/v4-shims.js"></script>
+        <!-- IonIcons -->
+        <link rel="stylesheet" href="../assets/vendor/ionicons/css/ionicons.min.css">
+        <!-- Revolution Slider -->
+        <link rel="stylesheet" href="../assets/vendor/revolution/css/settings.css">
+        <link rel="stylesheet" href="../assets/vendor/revolution/css/layers.css">
+        <link rel="stylesheet" href="../assets/vendor/revolution/css/navigation.css">
+        <!-- Flickity -->
+        <link rel="stylesheet" href="../assets/vendor/flickity/dist/flickity.min.css">
+        <!-- Photoswipe -->
+        <link rel="stylesheet" href="../assets/vendor/photoswipe/dist/photoswipe.css">
+        <link rel="stylesheet" href="../assets/vendor/photoswipe/dist/default-skin/default-skin.css">
+        <!-- DateTimePicker -->
+        <link rel="stylesheet" href="../assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+        <!-- Summernote -->
+        <link rel="stylesheet" href="../assets/vendor/summernote/dist/summernote-bs4.css">
+        <!-- GODLIKE -->
+        <link rel="stylesheet" href="../assets/css/godlike.css">
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="../assets/css/custom.css">
+        <!-- END: Styles -->
+        <!-- jQuery -->
   </head>
   <body>
+    <!-- START: Page Preloader -->
+    <div class="nk-preloader">
+      <!--
+  Preloader animation
+  data-close-... data used for closing preloader
+  data-open-...  data used for opening preloader
+  -->
+      <div class="nk-preloader-bg" style="background-color: #000;" data-close-frames="23" data-close-speed="1.2" data-close-sprites="../assets/images/preloader-bg.png" data-open-frames="23" data-open-speed="1.2" data-open-sprites="../assets/images/preloader-bg-bw.png">
+      </div>
+      <div class="nk-preloader-content">
+          <div>
+              <img class="nk-img" src="../assets/images/saviorxlogo.png"  width="170">
+              <div class="nk-preloader-animation"></div>
+          </div>
+      </div>
+      <div class="nk-preloader-skip">Skip</div>
+  </div>
+
+  <div class="nk-page-background op-5" data-video="https://youtu.be/UkeDo1LhUqQ" data-video-loop="true" data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0" data-video-pause-on-page-leave="true" style="background-image: url('../assets/images/page-background.jpg');"></div>
+
+  <!-- START: Page Border -->
+  <div class="nk-page-border">
+      <div class="nk-page-border-t"></div>
+      <div class="nk-page-border-r"></div>
+      <div class="nk-page-border-b"></div>
+      <div class="nk-page-border-l"></div>
+  </div>
+
+  <header class="nk-header nk-header-opaque">
+      <nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-transparent nk-navbar-autohide">
+          <div class="container">
+              <div class="nk-nav-table">
+                  <a href="index.html" class="nk-nav-logo">
+                      <img src="../assets/images/saviorxlogo.png" alt="" width="90">
+                  </a>
+                  <ul class="nk-nav nk-nav-right d-none d-lg-block" data-nav-mobile="#nk-nav-mobile">
+                      <li class="active  nk-item">
+                          <a href="https://saviorx.com"> Home</a>
+                          
+                      </li>
+                      <li class=" nk-mega-item nk-item">
+                          <a href="https://saviorx.com/#roadmap"> Roadmap</a>
+                      </li>
+                      <li class=" nk-mega-item nk-item">
+                          <a href="https://saviorx.com/index.html#team"> Team</a>
+                      </li>
+                  </ul>
+                 
+              </div>
+          </div>
+      </nav>
+      <!-- END: Navbar -->
+  </header>
+
+
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1334 height=750></canvas>
       <div id="unity-loading-bar">
@@ -117,5 +223,158 @@
       };
       document.body.appendChild(script);
     </script>
+
+<div class="nk-side-buttons nk-side-buttons-visible">
+  <ul>
+      <li>
+          <span class="nk-btn nk-btn-lg nk-btn-icon nk-bg-audio-toggle">
+              <span class="icon">
+                  <span class="ion-android-volume-up nk-bg-audio-pause-icon"></span>
+                  <span class="ion-android-volume-off nk-bg-audio-play-icon"></span>
+              </span>
+          </span>
+      </li>
+      <li class="nk-scroll-top">
+          <span class="nk-btn nk-btn-lg nk-btn-icon">
+              <span class="icon ion-ios-arrow-up"></span>
+          </span>
+      </li>
+  </ul>
+</div>
+
+<!-- START: Scripts -->
+  <!-- Object Fit Polyfill -->
+ 
+  <script src="../assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+  <!-- GSAP -->
+  <script src="../assets/vendor/gsap/dist/gsap.min.js"></script>
+  <script src="../assets/vendor/gsap/dist/ScrollToPlugin.min.js"></script>
+  <!-- Popper -->
+  <script src="../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Sticky Kit -->
+  <script src="../assets/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
+  <!-- Jarallax -->
+  <script src="../assets/vendor/jarallax/dist/jarallax.min.js"></script>
+  <script src="../assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+  <!-- imagesLoaded -->
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <!-- Flickity -->
+  <script src="../assets/vendor/flickity/dist/flickity.pkgd.min.js"></script>
+  <!-- Isotope -->
+  <script src="../assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+  <!-- Photoswipe -->
+  <script src="../assets/vendor/photoswipe/dist/photoswipe.min.js"></script>
+  <script src="../assets/vendor/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+  <!-- Typed.js -->
+  <script src="../assets/vendor/typed.js/lib/typed.min.js"></script>
+  <!-- Jquery Validation -->
+  <script src="../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+  <!-- Jquery Countdown + Moment -->
+  <script src="../assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+  <script src="../assets/vendor/moment/min/moment.min.js"></script>
+  <script src="../assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+  <!-- Hammer.js -->
+  <script src="../assets/vendor/hammerjs/hammer.min.js"></script>
+  <!-- NanoSroller -->
+  <script src="../assets/vendor/nanoscroller/bin/javascripts/jquery.nanoscroller.js"></script>
+  <!-- SoundManager2 -->
+  <script src="../assets/vendor/soundmanager2/script/soundmanager2-nodebug-jsmin.js"></script>
+  <!-- DateTimePicker -->
+  <script src="../assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+  <!-- Revolution Slider -->
+  <script src="../assets/vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="../assets/vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="../assets/vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+  <script src="../assets/vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+  <script src="../assets/vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+  <!-- Keymaster -->
+  <script src="../assets/vendor/keymaster/keymaster.js"></script>
+  <!-- Summernote -->
+  <script src="../assets/vendor/summernote/dist/summernote-bs4.min.js"></script>
+  <!-- GODLIKE -->
+  <script src="../assets/js/godlike.min.js"></script>
+  <script src="../assets/js/godlike-init.js"></script>
+  <!-- END: Scripts -->
+  <script type="text/javascript">
+      var tpj = jQuery;
+      var revapi50;
+      tpj(document).ready(function()
+      {
+          if (tpj("#rev_slider_50_1").revolution == undefined)
+          {
+              revslider_showDoubleJqueryError("#rev_slider_50_1");
+          }
+          else
+          {
+              revapi50 = tpj("#rev_slider_50_1").show().revolution(
+              {
+                  sliderType: "carousel",
+                  jsFileLocation: "assets/vendor/revolution/js/",
+                  sliderLayout: "auto",
+                  dottedOverlay: "none",
+                  delay: 9000,
+                  navigation:
+                  {
+                      keyboardNavigation: "off",
+                      keyboard_direction: "horizontal",
+                      onHoverStop: "off",
+                  },
+                  carousel:
+                  {
+                      maxRotation: 8,
+                      vary_rotation: "off",
+                      minScale: 20,
+                      vary_scale: "off",
+                      horizontal_align: "center",
+                      vertical_align: "center",
+                      fadeout: "off",
+                      vary_fade: "off",
+                      maxVisibleItems: 3,
+                      infinity: "on",
+                      space: -90,
+                      stretch: "off"
+                  },
+                  responsiveLevels: [1240, 1024, 778, 480],
+                  gridwidth: [800, 600, 400, 320],
+                  gridheight: [600, 400, 320, 280],
+                  lazyType: "none",
+                  shadow: 0,
+                  spinner: "off",
+                  stopLoop: "on",
+                  stopAfterLoops: 0,
+                  stopAtSlide: 0,
+                  shuffle: "off",
+                  autoHeight: "off",
+                  fullScreenAlignForce: "off",
+                  fullScreenOffsetContainer: "",
+                  fullScreenOffset: "",
+                  disableProgressBar: "on",
+                  hideThumbsOnMobile: "off",
+                  hideSliderAtLimit: 0,
+                  hideCaptionAtLimit: 0,
+                  hideAllCaptionAtLilmit: 0,
+                  debugMode: false,
+                  fallbacks:
+                  {
+                      simplifyAll: "off",
+                      nextSlideOnWindowFocus: "off",
+                      disableFocusListener: false,
+                  }
+              });
+          }
+      });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69924418-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-69924418-1');
+  </script>
+<!-- END: Features -->
   </body>
 </html>
