@@ -5859,6 +5859,10 @@ body.nk-body-overflow .nk-share-buttons {
     padding: 14px 36px;
 }
 
+.nk-brn-large {
+    font-size: 1.2em;
+}
+
 .nk-btn-lg.nk-btn-icon {
     padding: 14px;
 }

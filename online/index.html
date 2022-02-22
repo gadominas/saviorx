@@ -113,8 +113,13 @@
     </header>
 
     <!-- START: Features -->
-    <div id="unity-container" class="unity-desktop">
+      <div id="unity-container" class="unity-desktop">
         <div class="nk-gap-2"></div>
+        
+        <div class="text-center">
+          <button class="nk-btn nk-btn-x2" data-toggle="modal" data-target="#myModal">Keyboard shortcuts</button>
+        </div>
+
         <div class="nk-gap-2"></div>
         
         <canvas id="unity-canvas" width=1334 height=750></canvas>
@@ -224,7 +229,6 @@
         };
         document.body.appendChild(script);
       </script>
-    
 
     <div class="nk-side-buttons nk-side-buttons-visible">
         <ul>
@@ -243,6 +247,56 @@
             </li>
         </ul>
     </div>
+
+    <div id="myModal" class="modal nk-modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title nk-title" id="myModalLabel">In game keyboard shortcuts</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span class="ion-android-close"></span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <h1>In map preview</h1>
+                  <ul>
+                    <li><b>Create Asteroid</b> - LeftShit + Mouse Click</li>
+                    <li><b>Create roadster</b> - LeftShit + Mouse Click + Q</li>
+                    <li><b>Create astronau</b> - LeftShit + Mouse Click + A</li>
+                    <li><b>Delete all spwanable artifacts</b> - Key Delete</li>
+                    <li><b>Delete last spwannable artifact</b> - Key Backspace</li>
+                    <li><b>Drag a planet or spawnable artifact</b> - Mouse Click & Drag</li>
+                    <li><b>Zoom In</b> - LeftShit + UpArrow</li>
+                    <li><b>Zoom Out</b> - LeftShit + DownArrow</li>
+                    <li><b>Move camera</b> - LeftCommand + Mouse Click</li>
+                  </ul>
+          
+                  <h1>Mission board</h1>
+                  <ul>
+                    <li><b>Start</b> - Key Return (Enter). It activates only when leaf unit is deployed</li>
+                    <li><b>Disable/enable a unit</b> - LeftShit + Mouse Click = </li>
+                    <li><b>Lock the unit</b> - LeftShit + Mouse Click (on a selected deployed unit)</li>
+                  </ul>
+
+                  <h1>In play mode</h1>
+                  <ul>
+                    <li><b>Exit play mode</b>- Key ESC (escape)</li>
+                  </ul>
+
+                  <h1>Development tools</h1>
+                  <ul>
+                    <li><b>Show/Hide a debug console</b> - LeftControl Key C</li>
+                    <li><b>Clear user settings</b> - LeftControl + Key R</li>
+                  </ul>
+                </p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="nk-btn" data-dismiss="modal">Close</button>
+              </div>
+          </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+  </div>
 
     <!-- START: Scripts -->
         <!-- Object Fit Polyfill -->
